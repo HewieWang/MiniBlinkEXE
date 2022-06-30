@@ -1,0 +1,34 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" />
+</head>
+<script>
+var main = function() {
+    document.getElementById("xxx").value="OK";
+}
+function clickbtn(){
+	alert(document.getElementById("xxx").value)
+}
+</script>
+<body>
+	<table class="table">
+	  <tr>
+		<th>Company</th>
+		<th>Contact</th>
+		<th>Country</th>
+	  </tr>
+	  <tr>
+		<td>Alfreds Futterkiste</td>
+		<td>Maria Anders</td>
+		<td>Germany</td>
+	  </tr>
+	  <tr>
+		<td>Centro comercial Moctezuma</td>
+		<td>Francisco Chang</td>
+		<td>Mexico</td>
+	  </tr>
+	</table>
+	<input id="xxx">
+	<button id="dsa" onclick="clickbtn()">确定</button>
+</body>
+</html>
